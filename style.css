@@ -1,0 +1,138 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 270px;
+    height: 480px;
+    box-shadow: 0 10px 20px rgba(0,0,0,.2);
+    border-radius: 15px;
+    overflow: hidden;
+    font-family: 'Poppins', sans-serif;
+    padding: .7rem;
+}
+
+.image{
+    width: 100%;
+    height: 270px;
+    background: #F6FBFB;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    background-image: url("./adidas.jpeg");
+    background-position: center;
+    background-size: cover;
+}
+
+.rewiew{
+    width: 240px;
+    height: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.stars .fa{
+    font-size: .7rem;
+    color: #f9ca1c;
+}
+.stars span{
+    font-size: .6rem;
+    padding-right: .3rem;
+    color: #bfbfbf;
+}
+
+.review h5{
+font-size: 1.2rem;
+}
+
+.name{
+    width: 240px;
+    padding-bottom: .5rem;
+} 
+.detail{
+    width: 240px;
+}
+
+.detail p{
+color: #bfbfbf;
+font-size: .6rem;
+}
+
+.btn-box{
+    width: 240px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 1rem;
+    
+}
+
+.btn{
+    display: flex;
+    align-items: center;
+    width: 160px;
+    height: 50px;
+    background: #121212;
+    color: #ffff;
+    font-size: .8rem;
+    justify-content: space-evenly;
+    border-radius: 15px;
+    box-shadow: 0 10px 10px rgba(0,0,0, .2);
+}
+.btn:hover{
+    background: rgb(26, 26, 26);
+}
+
+.cart-icon{
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 35px;
+    background: #333333;
+    background: #ededed;
+    cursor: pointer;
+}
+
+
+
+.like{
+    background: #ededed;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 35px;
+    cursor: pointer;
+}
+.like:hover{
+    background: #ededed;
+    box-shadow: 0 10px 5px rgba(0,0,0, .2);
+    
+}
+
+.fa-heart:hover{
+    color: red;
+    
+}
+button{
+    border: none;
+    cursor: pointer;
+}
+
+button:hover{
+    border: 1px solid black;
+}
+.fa-shopping-cart{
+     cursor: pointer;
+
+}
